@@ -4,7 +4,7 @@
 
 Kullanılan Fonksiyonlar:
 
-SUM(): Bir sütunun toplamını alır.
+'SUM()': Bir sütunun toplamını alır.
 GROUP BY: Belirli bir sütuna göre gruplama yapar.
 AS: Sütunlara takma isim verir.
 SELECT: Belirtilen sütunları seçer.
