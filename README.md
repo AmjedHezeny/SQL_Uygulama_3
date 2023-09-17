@@ -4,13 +4,13 @@
 
 Kullanılan Fonksiyonlar:
 
-'SUM()': Bir sütunun toplamını alır.
-GROUP BY: Belirli bir sütuna göre gruplama yapar.
-AS: Sütunlara takma isim verir.
-SELECT: Belirtilen sütunları seçer.
-FROM: Sorgunun hangi tablodan yapılacağını belirtir.
-WHERE: Belirli bir koşula uyan satırları seçer.
-ORDER BY: Sonuçları belirli bir sıraya göre sıralar.
+- SUM(): Bir sütunun toplamını alır.
+- GROUP BY: Belirli bir sütuna göre gruplama yapar.
+- AS: Sütunlara takma isim verir.
+- SELECT: Belirtilen sütunları seçer.
+- FROM: Sorgunun hangi tablodan yapılacağını belirtir.
+- WHERE: Belirli bir koşula uyan satırları seçer.
+- ORDER BY: Sonuçları belirli bir sıraya göre sıralar.
 
 Açıklama: Her ürünün satış miktarını ve ürün adını listeleyerek, satış miktarına göre artan sırayla sıralar. 💹
 
@@ -18,7 +18,7 @@ Açıklama: Her ürünün satış miktarını ve ürün adını listeleyerek, sa
 
 Kullanılan Fonksiyonlar:
 
-COUNT(): Bir sütundaki toplam veri sayısını döndürür.
+- COUNT(): Bir sütundaki toplam veri sayısını döndürür.
 
 Açıklama: Her ülkenin müşteri sayısını listeleyerek, müşteri sayısına göre sıralar. 🗺️
 
@@ -32,8 +32,8 @@ Açıklama: Her tedarikçinin kaç çeşit ürün sağladığını ve tedarikçi
 
 Kullanılan Fonksiyonlar:
 
-SUM(): Bir sütunun toplamını alır.
-HAVING: GROUP BY sonuçları üzerinde filtreleme yapar.
+- SUM(): Bir sütunun toplamını alır.
+- HAVING: GROUP BY sonuçları üzerinde filtreleme yapar.
 
 Açıklama: Toplam geliri 1500$ ve üstünde olan siparişleri listeleyerek, siparişleri toplam fiyata göre sıralar. 💰
 
@@ -41,6 +41,6 @@ Açıklama: Toplam geliri 1500$ ve üstünde olan siparişleri listeleyerek, sip
 
 Kullanılan Fonksiyonlar:
 
-AVG(): Bir sütundaki değerlerin ortalamasını alır.
+- AVG(): Bir sütundaki değerlerin ortalamasını alır.
 
 Açıklama: Ürünlerin ortalama fiyatından daha yüksek olanları listeleyerek, ürün fiyatlarına göre sıralar. 📊 🚀
