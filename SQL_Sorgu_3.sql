@@ -48,3 +48,15 @@ FROM Products
 GROUP BY ProductName, UnitPrice
 HAVING  UnitPrice > (SELECT AVG(UnitPrice) FROM Products)
 ORDER BY UnitPrice ASC;
+
+
+---------------------------------------
+CREATE FUNCTION Emcet (@Yas FLOAT) 
+RETURNS FLOAT
+AS
+BEGIN
+    DECLARE @Yıl FLOAT;
+    SET @Yıl = @Yas * 26;
+    RETURN @Yıl;
+END;
+
